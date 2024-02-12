@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+nav.menu {
+  font-family: "Roboto", sans-serif;
+  background: #f0f9ff;
+  position: relative;
+  min-height: 45px;
+  height: 100%;
+  text-align: center;
+}
+
+.menu > ul > li {
+  list-style: none;
+  display: inline-block;
+  color: #4d4d4d;
+  line-height: 45px;
+}
+.menu > ul li a,
+.xs-menu li a {
+  text-decoration: none;
+  color: #4d4d4d;
+  padding: 10px 24px;
+}
+.menu > ul li a:hover {
+  background: #979696;
+  color: #4d4d4d;
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+}
+.active {
+  background: #979696;
+}
+
+.mega-menu {
+  background: none repeat scroll 0 0 #888;
+  left: 15;
+  margin-top: 3px;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  display: none;
+  transition-duration: 0.9s;
+}
+
+#border-unimar {
+  height: 46px;
+}
+
+#autor {
+  margin-top: -10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-right: 25px;
+}
+
+#cedula {
+  margin-top: -28px;
+}
+
+.cover-unimar {
+  height: 600px;
+  width: 1525px;
+  background-image: url("addons/univdemargarita_cover.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  background-image: linear-gradient(
+    -225deg,
+    #fff 0%,
+    #fff 29%,
+    #fff 67%,
+    #fff800 100%
+  );
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
+.conceptos,
+.concepto-mec {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 5%;
+  width: 80%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.title-dl {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.ref-slide {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.contenido-dl {
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+#ref-video-mec {
+  display: flex;
+  justify-content: center;
+}
+
+.enunciado {
+  text-align: center;
+}
+
+.ejercicio {
+  padding: 5%;
+  width: 80%;
+  max-width: 1500px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+.recomendaciones {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding: 5%;
+  width: 80%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.fbuttom {
+  margin-top: 50px;
+}
+
+.radio {
+  margin: 50px;
+  float: right;
+  background: none;
+  border-radius: 20px;
+  border-color: black;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}

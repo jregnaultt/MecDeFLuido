@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mec. de Fluidos</title>
+    <link rel="icon" type="image/png" href="addons/mecanica-de-fluidos.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="menu">
+          <ul>
+            <li style="float: left">
+              <img
+                id="border-unimar"
+                src="addons/unimar-border.png"
+                alt="borde unimar"
+              />
+            </li>
+            <li class="active">
+              <a href="#">Inicio</a>
+            </li>
+            <li class="drop-down">
+              <a href="index.html#mec-fluidos">Mecnica de Fluidos</a>
+            </li>
+            <li>
+              <a href="index.html#concept">Conceptos</a>
+            </li>
+            <li>
+              <a href="index.html#ejercicio-1">Ejercicio 1</a>
+            </li>
+            <li>
+              <a href="index.html#ejercicio-2">Ejercicio 2</a>
+            </li>
+            <li>
+              <a href="index.html#ejercicio-3">Ejercicio 3</a>
+            </li>
+            <li>
+              <a href="index.html#referencias">Referencias</a>
+            </li>
+            <li id="autor" style="float: right">
+              <p>Javier Regnault</p>
+              <p id="cedula">v-30.926.759</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="cover-unimar">
+        <div id="app"></div>
+      </h1>
+
+      <br />
+      <article>
+        <h2 id="mec-fluidos" class="concepto-mec">
+          Mecanica de Fluidos:
+          <p class="contenido-dl">
+            La mecánica de fluidos es la rama de la física comprendida dentro de
+            la mecánica de medios continuos que estudia el movimiento de los
+            fluidos, así como las fuerzas que lo provocan.​ La característica
+            fundamental que define a los fluidos es su incapacidad para resistir
+            esfuerzos cortantes.
+          </p>
+          <aside class="radio">
+            <audio controls autoplay loop="rocola">
+              <source src="music/biscuit.mp3" />
+              type="audio/mpeg">
+            </audio>
+          </aside>
+          <p class="ref-slide">
+            <i>
+              Blog referencial:
+              <a
+                href="https://es.slideshare.net/HAROLDO17/mecnica-de-fluidos-85811581"
+                target="_blank"
+                >Slideshare Mecanica de Fluidos</a
+              ></i
+            >
+          </p>
+          <p class="ref-slide"><i>Video referencial:</i></p>
+          <span id="ref-video-mec">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/4xwq1qHr464?si=d_5Z1vTS5jaACHyH"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </span>
+        </h2>
+        <div id="concept" class="conceptos">
+          <hr />
+          <h2><strong>Glosario de conceptos:</strong></h2>
+          <br />
+          <dl>
+            <dt class="title-dl">Masa:</dt>
+            <dd class="contenido-dl">
+              - Es la propiedad deun cuerpo de fluido que se mide por su inercia
+              a un cambio de movimiento
+            </dd>
+            <br />
+            <dt class="title-dl">Peso:</dt>
+            <dd class="contenido-dl">
+              - Es la cantidad que pesa un cuerpo, es decir, la fuerza con que
+              un peso es atraido a la tierra por la accion de la gravedad. Esta
+              Relacionada con la masa y aceleracion debido a la gravedad, por la
+              ley de newton
+            </dd>
+            <dd class="contenido-dl">* Ecuacion: peso = masa * gravedad</dd>
+            <br />
+            <dt class="title-dl">Fuerza:</dt>
+            <dd class="contenido-dl">
+              - Es una magnitud vectorial que mide la intensidad del intercambio
+              de momento lineal entre dos cuerpos.
+            </dd>
+            <br />
+            <dt class="title-dl">Presion:</dt>
+            <dd class="contenido-dl">
+              Es la cantidad de fuerza ejercida sobe una area unitaria de una
+              sustancia
+            </dd>
+            <dd class="contenido-dl">Ecuacion: P = fuerza/area</dd>
+            <br />
+            <dt class="title-dl">Principio de presion:</dt>
+            <dd class="contenido-dl">
+              - La presion actua uniformemente en todas las direcciones sobre un
+              pequeño volumen de fluidos
+            </dd>
+            <dd class="contenido-dl">
+              - En un fluido confinado entre frontera y salida, la presion actua
+              perpendicular a la frontera
+            </dd>
+            <br />
+            <dt class="title-dl">Compresibilidad</dt>
+            <dd class="contenido-dl">
+              - Se refiere al cambio de volumen de una sustancia que esta sujeta
+              a un cambio de presion que se ejerce en ella. Se utiliza el modulo
+              volumetrico de elasticidad
+            </dd>
+            <br />
+            <dt class="title-dl">Densidad</dt>
+            <dd class="contenido-dl">
+              - Es la cantidad de masa por unidad de volumen de una sustancia.
+            </dd>
+            <dd class="contenido-dl">* Ecuacion: ρ = masa/volumen</dd>
+            <br />
+            <dt class="title-dl">Peso especifico:</dt>
+            <dd class="contenido-dl">
+              - Es la cantidad de peso por unidad de volumen de una sustancia,
+              represantada con la letra gamma(ɣ)
+            </dd>
+            <dd class="contenido-dl">* Ecuacion: ɣ = peso/volumen</dd>
+            <br />
+            <dt class="title-dl">Gravedad especifica</dt>
+            <dd class="contenido-dl">
+              - El fluido de referencia es el agua a 4°C a tal temperatura, el
+              agua posee su densidad mas grande. Gracias a eso la densidad
+              especifica se puede definir como el <b>cociente</b> de la densidad
+              de una sustancia entre la densidad del agua a 4°C o el
+              <b>cociente</b> entre del penso especifico de la sustancia con el
+              peso especifico del agua a tal grados.
+            </dd>
+            <br />
+            <dt class="title-dl">Viscosidad:</dt>
+            <dd class="contenido-dl">
+              - Es la propiedad de un fluido que ofrece resistencia al
+              movimiento relativo de sus moleculas. La perdida de energia debido
+              a la friccion que se debe a su viscosidad
+            </dd>
+            <br />
+            <dt class="title-dl">Presion absoluta:</dt>
+            <dd class="contenido-dl">
+              - Es la presion que se mide en relacion al vacio perfecto, pues
+              Pabsoluta = Pmanometrica + Patmosferica.
+            </dd>
+            <br />
+          </dl>
+        </div>
+        <hr />
+        <br />
+        <div class="ejercicio">
+          <h3 id="ejercicio-1" class="enunciado">Ejercicio º 1:</h3>
+          <img src="addons/ejercicio1.png" alt="Ejercicio 1" />
+        </div>
+        <hr />
+        <div class="ejercicio">
+          <h3 id="ejercicio-2" class="enunciado">Ejercicio º 2:</h3>
+          <img src="addons/ejercicio2.png" alt="Ejercicio 2" />
+        </div>
+        <hr />
+        <div class="ejercicio">
+          <h3 id="ejercicio-3" class="enunciado">Ejercicio º 3</h3>
+          <img src="addons/ejercicio3.png" alt="Ejercicio 3" />
+        </div>
+
+        <hr />
+        <br />
+        <div class="recomendaciones">
+          <h4 id="referencias">Videos referenciales:</h4>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/-Hh8XskgI3g?si=AC-om8Lw98ZtodaI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <br /><br /><br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0TKilTzjf4k?si=dy6AqOwvhdojo21U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <br /><br /><br />
+          <h3>Informacion recomendada</h3>
+          <br /><br />
+          <a
+            href="https://blogs.ugto.mx/rea/clase-digital-1-introduccion-a-la-mecanica-de-fluidos-y-propiedades-fundamentales/"
+            target="_blank"
+            >Universidad de Guanajuato: Blog de Mecanica de Fluidos</a
+          >
+          <br /><br />
+          <a
+            href="https://rua.ua.es/dspace/bitstream/10045/20299/1/tema1_Flujo%20interno.pdf"
+            target="_blank"
+            >Universidad de Alicante: PDF Recomendado</a
+          >
+        </div>
+      </article>
+    </main>
+    <br />
+    <footer>
+      <div style="height: 150px; overflow: hidden">
+        <p class="fbuttom">
+          Made by: Skriits | Github:
+          <a target="_blank" href="https://github.com/jregnaultt">
+            <i style="font-size: 24px" class="fa">&#xf09b;</i></a
+          >
+        </p>
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          p
+          <path
+            d="M-24.03,-18.20 C150.00,149.60 344.46,-80.21 540.85,2.47 L500.00,149.60 L-0.00,149.60 Z"
+            style="stroke: none; fill: #08f"
+          ></path>
+        </svg>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="code.js"></script>
+  </body>
+</html>
